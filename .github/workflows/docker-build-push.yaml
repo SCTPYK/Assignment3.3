@@ -27,5 +27,5 @@ jobs:
         with:
           context: . 
           push: true   
-          tags: ${{ secrets.DOCKER_REGISTRY }}/123yk/flask-app:latest 
+          tags: 123yk/flask-app:v1.0
 
