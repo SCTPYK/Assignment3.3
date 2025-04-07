@@ -27,5 +27,5 @@ jobs:
         with:
           context: . 
           push: true   
-          tags: ${{ secrets.DOCKER_REGISTRY }}/Assigment3.3:latest 
+          tags: ${{ secrets.DOCKER_REGISTRY }}/v1.0:latest 
 
